@@ -15,7 +15,7 @@
               "state": {
                 "file": "nestjs/Instalaciones.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Instalaciones"
@@ -74,8 +74,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,8 +198,9 @@
   },
   "active": "bf9a29b540b938d7",
   "lastOpenFiles": [
-    "Markdown Basico.md",
+    "nestjs/nest-cheatsheet.pdf",
     "nestjs/Instalaciones.md",
+    "Markdown Basico.md",
     "nestjs",
     "Bienvenido.md"
   ]

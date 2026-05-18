@@ -17,11 +17,11 @@
 ```
 ### TypeOrm
 ```bash
-npm install --save @nestjs/typeorm typeorm
+npm install @nestjs/typeorm typeorm
 ```
 ### PostgreSql
 ```bash
-npm install --save @nestjs/typeorm typeorm
+npm install pg
 ```
 
 ## Generar componentes de NestJs

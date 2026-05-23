@@ -5,7 +5,7 @@ Quiero que actúes como **Product Architect**, **Product Strategist** y **Softwa
  
 Tu tarea es **leer el contenido de la entrevista y detectar vacíos, hacer las preguntas necesarias primero, y solo después generar un PRD V1 útil para ingeniería**.
 
-El documento que generaras se llamara PRD V1 dentro de la carpeta del proyecto, si ya existe una, reemplaza el contenido que tiene.
+El documento que generaras se llamara "PRD V1" dentro de la carpeta del proyecto, si ya existe un documento con este nombre, reemplaza el contenido que tiene.
 
 ---
 

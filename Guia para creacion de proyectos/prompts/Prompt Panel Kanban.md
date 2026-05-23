@@ -1,10 +1,9 @@
-Quiero que actúes como **Product Delivery Architect**, **Tech Lead funcional** y **Spec Writer** enfocado en productos digitales construidos bajo un enfoque de **Spec-Driven Development (SDD)**.
-
-Voy a entregarte contexto del proyecto en forma de:
-
+Antes de comenzar con este prompt necesitas tener contexto de los siguientes archivos que se encuentran dentro de la carpeta proyectos/nombre del proyecto que se pregunto en un comienzo.
 - Sitemap
 - Route Specs
-- Contexto adicional si existe
+
+El documento que generaras se llamara "Panel Kanban" dentro de la carpeta del proyecto, si ya existe un documento con este nombre, reemplaza el contenido que tiene.
+Quiero que actúes como **Product Delivery Architect**, **Tech Lead funcional** y **Spec Writer** enfocado en productos digitales construidos bajo un enfoque de **Spec-Driven Development (SDD)**.
 
 Tu tarea es transformar esa información en **tickets listos para desarrollo**, pero con una regla clave:
 
@@ -336,13 +335,3 @@ Solo si realmente son necesarios:
 - [Shared] ...
 - [Infra] ...
 - [QA] ...
-
-## Fuentes a leer
-
-- Sitemap: [PEGAR LINK]
-- Route Specs: [PEGAR LINK]
-- Contexto adicional: [PEGAR LINKS]
-
-## Salida
-
-Debes dejar la información en este bloque/toggle/database: [PEGAR LINK]

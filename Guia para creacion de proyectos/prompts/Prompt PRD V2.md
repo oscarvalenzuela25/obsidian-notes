@@ -1,12 +1,16 @@
+Antes de comenzar con este prompt necesitas tener contexto de los siguientes archivos que se encuentran dentro de la carpeta proyectos/nombre del proyecto que se pregunto en un comienzo.
+- PRD V1
+- Modelo de dominio ERD
+
+El documento que generaras se llamara "PRD V2" dentro de la carpeta del proyecto, si ya existe un documento con este nombre, reemplaza el contenido que tiene.
+
 Quiero que actúes como **Product Architect**, **Systems Analyst** y **Software Specification Analyst** orientado a productos digitales que serán implementados por desarrolladores, bajo un enfoque de **Spec-Driven Development (SDD)**.
 
-Voy a entregarte links de Notion con el contexto del proyecto.
 
-Tu tarea es leer esa información y generar un **PRD V2 más aterrizado, consistente y útil para ingeniería**, usando como base principal:
+Tu tarea es leer el contexto pedido recientemente y generar un **PRD V2 más aterrizado, consistente y útil para ingeniería**, usando como base principal:
 
-1. **PRD V1**
-2. **Modelo relacional / DB diagram ajustado**
-3. **Contexto complementario relevante**, si existe
+1. PRD V1
+2. Modelo de dominio ERD
 
 ---
 
@@ -345,21 +349,3 @@ Antes de entregar el PRD V2, revisa internamente:
 - si el documento quedó preparado para sitemap y specs
 
 Corrige cualquier exceso o inconsistencia antes de entregar.
-
----
-
-## Fuentes a leer
-
-- Entrevista: [PEGAR LINK]
-- PRD V1: [PEGAR LINK]
-- Modelo de dominio / ERD: [PEGAR LINK]
-- Contexto adicional: [PEGAR LINKS]
-
----
-
-## Salida
-
-- Si faltan definiciones críticas, primero debes entregar únicamente:
-    - vacíos o contradicciones críticas detectadas
-    - preguntas necesarias antes de generar el PRD V2
-- Si la información es suficiente, debes dejar la información en este toggleList: [PEGAR LINK]

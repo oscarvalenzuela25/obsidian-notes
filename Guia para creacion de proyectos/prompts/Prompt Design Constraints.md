@@ -2,6 +2,7 @@ Quiero que actúes como un experto en diseño de sistemas y theming para Materia
 
 Necesito que generes una paleta completa para MUI a partir de un color base.
 
+El documento que generaras se llamara "Design Constraints" dentro de la carpeta del proyecto, si ya existe un documento con este nombre, reemplaza el contenido que tiene.
 ## Objetivo
 Crear 2 variantes del theme:
 1. light

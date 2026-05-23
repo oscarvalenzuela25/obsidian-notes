@@ -1,8 +1,12 @@
+Antes de comenzar con este prompt necesitas tener contexto de los siguientes archivos que se encuentran dentro de la carpeta proyectos/nombre del proyecto que se pregunto en un comienzo.
+- Modelo de dominio ERD
+- PRD V2
+
+El documento que generaras se llamara "Sitemap" dentro de la carpeta del proyecto, si ya existe un documento con este nombre, reemplaza el contenido que tiene.
+
 Quiero que actúes como **Product Designer**, **Information Architect** y **Software Specification Analyst** para un producto digital en fase de definición funcional, bajo un enfoque de **Spec-Driven Development (SDD)**.
 
-Voy a entregarte links de Notion con el contexto del proyecto.
-
-Tu tarea es leer esa información y generar un **Sitemap funcional del MVP**, en formato de tabla, pensado para que luego cada ruta pueda convertirse en un **Route Spec** y servir como base directa para desarrollo.
+Tu tarea es leer el contexto y generar un **Sitemap funcional del MVP**, en formato de tabla, pensado para que luego cada ruta pueda convertirse en un **Route Spec** y servir como base directa para desarrollo.
 
 ---
 
@@ -30,9 +34,8 @@ Debes construir el sitemap **a partir de la especificación funcional**, no desd
 
 Eso significa que debes basarte en:
 
-- modelo de dominio / ERD
+- Modelo de dominio ERD
 - PRD V2
-- contexto adicional relevante
 
 Y desde ahí identificar:
 
@@ -192,9 +195,9 @@ Si no cumple una razón clara, no la agregues.
 
 ---
 
-## Formato de salida en Notion
+## Formato de salida
 
-Crear una sección llamada:
+Crear un documento llamado "Sitemap"
 
 **Sitemap MVP**
 
@@ -275,22 +278,3 @@ Antes de entregar el sitemap, revisa internamente:
 - si el resultado refleja el MVP real y no una expansión futura del producto
 
 Corrige cualquier exceso antes de entregar.
-
----
-
-## Fuentes a leer
-
-- Modelo de dominio / ERD: [PEGAR LINK]
-- PRD V2: [PEGAR LINK]
-- Contexto adicional: [PEGAR LINKS]
-
----
-
-## Salida
-
-- Si faltan definiciones críticas, primero debes entregar únicamente:
-    - vacíos o contradicciones críticas detectadas
-    - preguntas necesarias antes de generar el sitemap
-- Si la información es suficiente:
-    - debes dejar la información en este toggleList: [PEGAR LINK]
-- Si tienes acceso de escritura, crea o actualiza la sección en Notion con ese formato.

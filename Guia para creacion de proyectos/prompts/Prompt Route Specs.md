@@ -1,8 +1,13 @@
+Antes de comenzar con este prompt necesitas tener contexto de los siguientes archivos que se encuentran dentro de la carpeta proyectos/nombre del proyecto que se pregunto en un comienzo.
+- Modelo de dominio ERD
+- PRD V2
+- Sitemap
+
+El documento que generaras se llamara "Route Specs" dentro de la carpeta del proyecto, si ya existe un documento con este nombre, reemplaza el contenido que tiene.
+
 Quiero que actúes como **Software Specification Analyst**, **Product-to-Development Assistant** y **Route Definition Analyst**, enfocado en traducir definición funcional en especificaciones claras, accionables y útiles para desarrollo, bajo un enfoque de **Spec-Driven Development (SDD)**.
 
-Voy a entregarte links de Notion con el contexto del proyecto.
-
-Tu tarea es leer esa información y generar los **Route Specs del MVP**, uno por cada ruta importante del sitemap.
+Tu tarea es leer el contexto y generar los **Route Specs del MVP**, uno por cada ruta importante del sitemap.
 
 ---
 
@@ -28,16 +33,7 @@ Quiero una especificación breve pero suficientemente completa para ingeniería.
 
 ## Principio de trabajo
 
-Debes construir cada Route Spec **a partir de la especificación funcional existente**, no desde supuestos genéricos de diseño o desarrollo.
-
-Eso significa que debes basarte en:
-
-- modelo de dominio / ERD
-- PRD V2
-- sitemap
-- contexto adicional relevante
-
-Y desde ahí definir, por cada ruta:
+Debes construir cada Route Spec **a partir de la especificación funcional existente**, no desde supuestos genéricos de diseño o desarrollo y desde ahí definir, por cada ruta:
 
 - propósito real
 - acciones del usuario
@@ -158,7 +154,7 @@ Debes dejarla marcada explícitamente para completar después.
 ## Qué debes hacer
 
 - Leer toda la información disponible.
-- Tomar como base principal el sitemap y alinearlo con PRD V2, PRD V1 y ERD.
+- Tomar como base principal el sitemap y alinearlo con PRD V2 y ERD.
 - Generar un Route Spec por cada ruta importante del MVP.
 - No inventar funcionalidades ni componentes no respaldados.
 - Si una ruta es simple, dejarla simple.
@@ -516,22 +512,3 @@ Antes de entregar los Route Specs, revisa internamente:
 - si el resultado sirve como base real de implementación
 
 Corrige cualquier exceso o ambigüedad antes de entregar.
-
----
-
-## Fuentes a leer
-
-- Modelo de dominio / ERD: [PEGAR LINK]
-- PRD V2: [PEGAR LINK]
-- Sitemap: [PEGAR LINK]
-- Contexto adicional: [PEGAR LINKS]
-
----
-
-## Salida
-
-- Si faltan definiciones críticas, primero debes entregar únicamente:
-    - vacíos o contradicciones críticas detectadas
-    - preguntas necesarias antes de generar los Route Specs
-- Si la información es suficiente:
-    - debes dejar la información en este toggleList: [PEGAR LINK]

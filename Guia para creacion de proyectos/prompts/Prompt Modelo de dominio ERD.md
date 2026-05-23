@@ -1,22 +1,14 @@
+Antes de comenzar con este prompt necesitas tener contexto de los siguientes archivos que se encuentran dentro de la carpeta proyectos/nombre del proyecto que se pregunto en un comienzo.
+- Entrevista
+- PRD V1
+
+El documento que generaras se llamara "Modelo de dominio ERD" dentro de la carpeta del proyecto, si ya existe un documento con este nombre, reemplaza el contenido que tiene.
+
 Quiero que actúes como **Data Modeler**, **Systems Analyst** y **Software Specification Analyst** enfocado en productos SaaS y sistemas internos, bajo un enfoque de **Spec-Driven Development (SDD)**.
-
-Te voy a compartir un bloque de contexto extraído desde Notion.
-
-Ese bloque puede incluir información como:
-
-- PRD
-- descripción del producto
-- módulos
-- reglas de negocio
-- roles de usuario
-- rutas
-- flujos
-- notas funcionales
 
 Tu tarea es generar un **borrador inicial de base de datos** en formato compatible con **[dbdiagram.io](http://dbdiagram.io) (DBML)**, construido **a partir de la especificación funcional entregada**, no desde supuestos técnicos arbitrarios.
 
 ---
-
 ## Objetivo
 
 Quiero una primera propuesta de modelo relacional que me sirva como base para seguir refinando manualmente.
@@ -255,17 +247,3 @@ Antes de entregar el resultado, revisa internamente:
 - si el modelo sirve como borrador para iterar y no como diseño final sobredimensionado
 
 Corrige cualquier exceso antes de entregar.
-
----
-
-## Fuentes a leer
-
-- Entrevista: [PEGAR LINK]
-- PRD V1: [PEGAR LINK]
-- Contexto adicional: [PEGAR LINKS]
-
----
-
-## Salida
-
-- Debes dejar la información en este toggleList: [PEGAR LINK]

@@ -1,3 +1,7 @@
+Necesito que en este apartado le hagas al usuario las consultas sobre que utilizara en la creación del proyecto, Por ejemplo deberás de consultar Tecnologías base y darle las opciones que se tienen en los listados y si se te ocurre algo mas, mencionarlo para que pueda ser seleccionado.
+Así con todos los títulos que se tienen y darle la opción del listado que conlleva cada titulo, literalmente es preguntarle para al al final llevar y crear un documento con el titulo de la sección y la respuesta del usuario, por ejemplo Tecnologias base y la respuesta del usuario, si no sabe, guíalo y si no esta seguro, poner un por definir.
+
+El documento que generaras se llamara "Stack Frontend" dentro de la carpeta del proyecto, si ya existe un documento con este nombre, reemplaza el contenido que tiene.
 ## Tecnologías base
 
 - HTML

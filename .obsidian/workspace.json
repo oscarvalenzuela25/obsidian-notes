@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "82649c3567efaa8a",
+        "id": "cc19db6caf057d7d",
         "type": "tabs",
         "children": [
           {
-            "id": "8abfac36c0f51091",
+            "id": "d085d38e9aca897a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guia para creacion de proyectos/Guide.md",
+                "file": "Markdown Basico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guide"
+              "title": "Markdown Basico"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 385.5
   },
   "right": {
     "id": "5ebf1dca870cd496",
@@ -196,43 +196,28 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "8abfac36c0f51091",
+  "active": "d085d38e9aca897a",
   "lastOpenFiles": [
-    "Guia para creacion de proyectos/prompts/Prompt Sitemap.md",
-    "Guia para creacion de proyectos/prompts/Prompt Panel Kanban.md",
-    "Guia para creacion de proyectos/Guide.md",
-    "Guia para creacion de proyectos/prompts/Prompt PRD V2.md",
-    "Guia para creacion de proyectos/prompts/Prompt Route Specs.md",
-    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
-    "Guia para creacion de proyectos/prompts/Prompt Stack DevOps.md",
-    "Guia para creacion de proyectos/prompts/Prompt Stack Frontend.md",
-    "Guia para creacion de proyectos/prompts/Prompt Stack Backend.md",
-    "Guia para creacion de proyectos/prompts/Prompt Modelo de dominio ERD.md",
-    "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",
-    "proyectos/SkillMatch",
-    "Guia para creacion de proyectos/Entrevista inicial.md",
-    "proyectos",
-    "Creacion de proyecto 1/Template guia.md",
+    "Bienvenido.md",
+    "nestjs/nest-cheatsheet.pdf",
+    "nestjs/Instalaciones.md",
+    "nestjs/Class Validator.md",
+    "dockers/Crear BD postgreSQL.md",
     "Markdown Basico.md",
-    "Creacion de proyecto 1/prompts/Prompt Sitemap.md",
-    "Creacion de proyecto 1/prompts/Prompt PRD V2.md",
-    "Creacion de proyecto 1/prompts/Prompt PRD V1.md",
-    "Creacion de proyecto 1/prompts/Prompt PRD Route Specs.md",
-    "Creacion de proyecto 1/prompts/Prompt para Stack Frontend.md",
-    "Creacion de proyecto 1/prompts/Prompt para Stack DevOps.md",
-    "Creacion de proyecto 1/prompts/Prompt para Stack Backend.md",
-    "Creacion de proyecto 1/prompts/Prompt para crear panel Kanban.md",
-    "Creacion de proyecto 1/prompts/Prompt Paleta para MUI.md",
-    "Creacion de proyecto 1/prompts/Prompt Modelo de dominio ERD.md",
-    "Creacion de proyecto 1/Entrevista inicial.md",
-    "Creacion de proyecto 1/prompts",
-    "Creacion de proyecto 1/documentos",
-    "Creacion de proyecto 1",
-    "Proyecto Test/prompts/Prompt PRD V1.md",
-    "Proyecto Test/prompts",
-    "Proyecto Test/documentos",
-    "Proyecto Test",
-    "Creacion de proyecto/documentos",
-    "Guia para creacion de proyectos/prompts"
+    "dockers",
+    "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",
+    "Guia para creacion de proyectos/prompts/Prompt Route Specs.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack Backend.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack Frontend.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack DevOps.md",
+    "Guia para creacion de proyectos/prompts/Prompt Sitemap.md",
+    "Guia para creacion de proyectos/prompts/Prompt PRD V2.md",
+    "Guia para creacion de proyectos/Guide.md",
+    "Guia para creacion de proyectos/prompts/Prompt Panel Kanban.md",
+    "Guia para creacion de proyectos/prompts/Prompt Modelo de dominio ERD.md",
+    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
+    "Guia para creacion de proyectos/prompts",
+    "Guia para creacion de proyectos",
+    "nestjs"
   ]
 }

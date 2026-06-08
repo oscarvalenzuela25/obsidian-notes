@@ -1,0 +1,8 @@
+- Nestjs
+	- Curso Fernando Herrara
+- Python
+	- Curso de udemy ode fernandito
+- Ingles
+	- GPT Learning path
+- Arquitectura de software
+	- GPT Learning path

@@ -11,14 +11,12 @@
             "id": "d085d38e9aca897a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Ingles.md",
-                "mode": "source",
-                "source": false
+                "file": "nestjs/nest-cheatsheet.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Ingles"
+              "icon": "lucide-file-text",
+              "title": "nest-cheatsheet"
             }
           }
         ]
@@ -198,17 +196,21 @@
   },
   "active": "d085d38e9aca897a",
   "lastOpenFiles": [
-    "Pasted image 20260621145315.png",
-    "Ingles.md",
-    "Learning Path.md",
-    "torpedos/mejores promps.jpg",
-    "nestjs/Documentacion.md",
-    "torpedos",
-    "nestjs/Instalaciones.md",
-    "nestjs/Class Validator.md",
-    "Markdown Basico.md",
-    "Bienvenido.md",
+    "nestjs/5 - Websockets.md",
+    "nestjs/4 - Auth.md",
+    "nestjs/3 - Class Validator.md",
     "nestjs/nest-cheatsheet.pdf",
+    "nestjs/2 - Documentacion.md",
+    "nestjs/1 - Instalaciones.md",
+    "torpedos/mejores promps.jpg",
+    "Markdown Basico.md",
+    "Ingles.md",
+    "ToDo/Backend.md",
+    "ToDo",
+    "Pasted image 20260621145315.png",
+    "Learning Path.md",
+    "torpedos",
+    "Bienvenido.md",
     "dockers/Crear BD postgreSQL.md",
     "dockers",
     "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",

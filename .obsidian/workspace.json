@@ -11,12 +11,14 @@
             "id": "d085d38e9aca897a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "nestjs/nest-cheatsheet.pdf"
+                "file": "Learning path.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "nest-cheatsheet"
+              "icon": "lucide-file",
+              "title": "Learning path"
             }
           }
         ]
@@ -196,14 +198,15 @@
   },
   "active": "d085d38e9aca897a",
   "lastOpenFiles": [
+    "Markdown Basico.md",
+    "Learning path.md",
+    "nestjs/nest-cheatsheet.pdf",
     "nestjs/5 - Websockets.md",
     "nestjs/4 - Auth.md",
     "nestjs/3 - Class Validator.md",
-    "nestjs/nest-cheatsheet.pdf",
     "nestjs/2 - Documentacion.md",
     "nestjs/1 - Instalaciones.md",
     "torpedos/mejores promps.jpg",
-    "Markdown Basico.md",
     "Ingles.md",
     "ToDo/Backend.md",
     "ToDo",

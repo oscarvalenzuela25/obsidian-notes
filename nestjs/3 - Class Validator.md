@@ -1,3 +1,4 @@
+Esto es de ejemplo, salta esto si estas en fase de creación de un proyecto.
 ```ts
 @IsString()
 @MinLength(6)

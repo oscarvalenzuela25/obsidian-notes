@@ -1,10 +1,13 @@
+Consulta si necesitan agregar documentación o saltamos esta sección.
+Si se necesita agregar documentación, da la opción de que tenemos para documentar
+- Swagger.
 ### Swagger
-Instalacion de la libreria para nestjs
+Instalación de la libreria para nestjs, si ya esta instalado omitir
 ```bash
 npm install --save @nestjs/swagger
 ```
 
-Vamos al main.ts
+Vamos al src/main.ts y deberíamos de agregar el DocumentBuilder y SwaggerModule, si ya esta configurado, omitir
 ```ts
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
@@ -21,7 +24,6 @@ async function bootstrap() {
   const documentFactory = () => SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('/documentation', app, documentFactory); // initial path
 
-  await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
 ```

@@ -1,13 +1,13 @@
-Consulta si necesitan agregar documentación o saltamos esta sección.
+Consulta si necesitan agregar documentación, si no es necesario salta a la sección [[5 - Auth]] si no continuemos.
 Si se necesita agregar documentación, da la opción de que tenemos para documentar
 - Swagger.
 ### Swagger
-Instalación de la libreria para nestjs, si ya esta instalado omitir
+Instalación de la librería para nestjs, si ya esta instalado omitir y continuar
 ```bash
-npm install --save @nestjs/swagger
+npm install @nestjs/swagger
 ```
 
-Vamos al src/main.ts y deberíamos de agregar el DocumentBuilder y SwaggerModule, si ya esta configurado, omitir
+Vamos al src/main.ts y deberíamos de agregar el DocumentBuilder y SwaggerModule, consulta el nombre que quiera tener el titulo de la documentación, la descripción y la versión (por defecto es 1.0), si ya esta instalado esto, podemos proseguir.
 ```ts
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
@@ -28,8 +28,8 @@ async function bootstrap() {
 bootstrap();
 ```
 
-Para agregar nombres custom a las secciones, usamos el @ApiTags("nombre de la seccion")
-Vamos a los controladores
+Para agregar nombres custom a las secciones, usamos el @ApiTags("nombre de la sección")
+Vamos a los controladores y usamos el decorador, esto es a modo de ejemplo.
 ```ts
 @ApiTags('Authorization')
 @Controller('auth')
@@ -38,7 +38,8 @@ constructor(private readonly authService: AuthService) {}
 }
 ```
 
-Para agregar codigos de responses a las peticiones, usamos el @ApiResponse(options) en los controladores
+Para agregar códigos de responses a las peticiones, usamos el @ApiResponse(options) en los controladores.
+Esto es a modo de ejemplo, puedes tenerlo como referencia a la hora de usarlo.
 ```ts
 @Post()
 @Auth(ValidRoles.admin)
@@ -61,6 +62,7 @@ return this.productsService.create(createProductDto, user);
 }
 ```
 Si queremos que en el 201 aparezca el response type o el schema del response, tenemos que ir al entity del controlador y poner @ApiProperty(), el ApiProperty tiene varios valores para agregar.
+Esto es a modo de ejemplo, puedes tenerlo como referencia a la hora de usarlo. 
 ```ts
 export class Product {
 @ApiProperty({
@@ -136,4 +138,5 @@ tags!: string[];
 }
 ```
 Esto tambien se puede ocupar para documentar los DTO, asi se tendra automaticamente la documentación de eso.
-Cuando tenemos DTO de updates, este toma el DTO del create y le agrega el PartialType que viene de mapper-types, para la documentación swagger tiene ese mismo PartialType de su libreria para poder hacer la documentación de esta.
+Cuando tenemos DTO de updates, este toma el DTO del create y le agrega el PartialType que viene de mapper-types, para la documentación swagger tiene ese mismo PartialType de su libreria para poder hacer la documentación de esta, solo tienes que reemplazar de donde viene la importacion de PartialType a swagger.
+Con esto podemos seguir a [[5 - Auth]]

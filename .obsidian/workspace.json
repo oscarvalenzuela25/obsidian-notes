@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a5462d51be9f8619",
+        "id": "db7beba5765a5e3a",
         "type": "tabs",
         "children": [
           {
-            "id": "179a293b854ca0b1",
+            "id": "c1e4f7903a6189ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nestjs/5 - Auth.md",
+                "file": "nestjs/1 - Instalaciones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 - Auth"
+              "title": "1 - Instalaciones"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 311.5
   },
   "right": {
     "id": "5ebf1dca870cd496",
@@ -196,41 +196,45 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "179a293b854ca0b1",
+  "active": "c1e4f7903a6189ac",
   "lastOpenFiles": [
-    "Nestjs/6 - Websockets.md",
-    "Nestjs/5 - Auth.md",
-    "Nestjs/4 - Documentacion.md",
-    "Nestjs/3 - Class Validator.md",
-    "Nestjs/2 - BD.md",
-    "Nestjs/1 - Instalaciones.md",
-    "Nestjs/nest-cheatsheet.pdf",
-    "Utils/Prompt para estudiar.jpg",
-    "Utils/Favoritos.md",
-    "Fundamentos de Backend.md",
-    "Learning path.md",
-    "Markdown Basico.md",
+    "nestjs/2 - BD.md",
+    "nestjs/3 - Class Validator.md",
+    "nestjs/4 - Documentacion.md",
+    "nestjs/5 - Auth.md",
+    "nestjs/6 - Websockets.md",
+    "nestjs/1 - Instalaciones.md",
     "Prompt Ingles.md",
-    "ToDo/Backend.md",
-    "ToDo",
-    "Pasted image 20260621145315.png",
-    "Learning Path.md",
+    "Utils/Prompt para estudiar.jpg",
     "Utils",
-    "Bienvenido.md",
+    "Learning path.md",
+    "Fundamentos de Backend.md",
     "Contenedores utiles de dockers/Crear BD postgreSQL.md",
     "Contenedores utiles de dockers",
-    "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",
-    "Guia para creacion de proyectos/prompts/Prompt Route Specs.md",
-    "Guia para creacion de proyectos/prompts/Prompt Stack Backend.md",
-    "Guia para creacion de proyectos/prompts/Prompt Stack Frontend.md",
-    "Guia para creacion de proyectos/prompts/Prompt Stack DevOps.md",
-    "Guia para creacion de proyectos/prompts/Prompt Sitemap.md",
-    "Guia para creacion de proyectos/prompts/Prompt PRD V2.md",
+    "torpedos/mejores promps.jpg",
+    "Learning Path.md",
+    "torpedos",
+    "nestjs/Documentacion.md",
     "Guia para creacion de proyectos/Guide.md",
+    "nestjs/Class Validator.md",
+    "dockers/Crear BD postgreSQL.md",
+    "dockers",
+    "Guia para creacion de proyectos/prompts/Prompt Sitemap.md",
     "Guia para creacion de proyectos/prompts/Prompt Panel Kanban.md",
+    "Guia para creacion de proyectos/prompts/Prompt PRD V2.md",
+    "Guia para creacion de proyectos/prompts/Prompt Route Specs.md",
+    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack DevOps.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack Frontend.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack Backend.md",
     "Guia para creacion de proyectos/prompts/Prompt Modelo de dominio ERD.md",
-    "Guia para creacion de proyectos/prompts",
-    "Guia para creacion de proyectos",
-    "Nestjs"
+    "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",
+    "proyectos/SkillMatch",
+    "Guia para creacion de proyectos/Entrevista inicial.md",
+    "proyectos",
+    "Creacion de proyecto 1/prompts",
+    "Creacion de proyecto 1/documentos",
+    "Creacion de proyecto 1",
+    "Proyecto Test/prompts"
   ]
 }

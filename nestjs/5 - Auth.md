@@ -1,6 +1,6 @@
 Consulta si se va a agregar la configuración de Auth en esta parte.
-Si no, omite esta parte y vamos con el siguiente.
-Si va a agregar la configuración, continuemos con las instrucciones.
+Si es un no, omite esta parte y puedes seguir a [[6 - Websockets]]
+Si es un si, continuemos con las instrucciones.
 
 Consulta si ya tiene un modulo en el cual trabajar.
 Si no lo tiene, toca crear uno, preguntar el nombre del nuevo modulo y usa el comando
@@ -15,6 +15,7 @@ npm install @nestjs/passport passport
 ```
 Supongamos que tenemos el modulo Auth
 ### JWT
+Vamos a trabajar en el modulo auth que creamos.
 La configuración para jwt es la siguiente
 Vamos a src/auth/auth.module.ts y debemos de tener algo asi.
 ```ts
@@ -94,3 +95,4 @@ Con esa configuracion con passport podemos validar dentro de los controlador con
 ```ts
 @UseGuards(AuthGuard('jwt'))
 ```
+con esto podemos seguir a [[6 - Websockets]]

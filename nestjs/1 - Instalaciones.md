@@ -1,9 +1,9 @@
-Aqui vamos a empezar con las instalaciones, ten en cuenta lo siguiente:
+Aquí vamos a comenzar con la instalación de un proyecto desde 0 de nestjs, te vas a encontrar con las siguientes situaciones:
 Hay secciones que tienes que consultar al usuario antes de continuar.
-Hay secciones de ejemplo, omitelas para la instalación.
+Hay secciones de ejemplo, omítelas para la instalación, son apuntes o cosas que pueden ayudar cuando necesites contexto de lo que se quiere hacer.
 Hay secciones automáticas que tienes que instalarlas sin consultar al usuario.
-## Instalar NestJs CLI
-Verifica si esta instalado nestCli, si no instalar con el siguiente comando
+## Instalar Nestjs CLI
+Verifica si esta instalado nestjs CLI, si no instalar con el siguiente comando
 ```bash
   npm i -g @nestjs/cli
 ```
@@ -14,16 +14,16 @@ Para crear un nuevo proyecto, digitar el siguiente comando, consulta por el nomb
 ```
 ## Librerías bases a instalar
 ### Validadores
-Libreria para validar dtos
+Librería para validar DTOs
 ```bash
   npm i class-validator class-transformer
 ```
 ### .envs
-Libreria para utilizar .envs
+Librería para utilizar .envs
 ```bash
   npm i @nestjs/config
 ```
-Después de instalar esta libreria, procede a crear un .env en la raiz del proyecto con el valor base PORT=3000 y  busca en el proyecto si existe src/config/envs.config.ts, sino crealo y pon esta configuración base
+Después de instalar esta libreria, procede a crear un .env en la raiz del proyecto con el valor base PORT=3000 y busca en el proyecto si existe src/config/envs.config.ts, sino créalo y pon esta configuración base
 ``` ts
 export const configModuleEnvs = () => ({
 	PORT: process.env.PORT ? parseInt(process.env.PORT) : 3000,
@@ -50,7 +50,7 @@ constructor(
 ```
 ## Configuraciones Iniciales
 Ahora vamos a ir al archivo src/main.ts y empezaremos con la configuración base
-Este es un ejemplo del archivo src/main.ts.
+Este es un ejemplo del archivo src/main.ts que debe de existir, sino agregar lo que falte.
 ```ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
@@ -65,13 +65,13 @@ bootstrap();
 
 ### Base path
 Consulta si quieren que el path de los endpoints tengan un prefijo por ejemplo "/api".
-Si dicen que no quieren, pasamos a lo siguiente, sino agrega la respuesta al app.setGlobalPrefix abajo del app en la función bootstrap.
+Si dicen que no quieren, pasamos a lo siguiente, sino agrega la respuesta al app.setGlobalPrefix abajo del app en la función bootstrap con el prefijo que se quiere.
 ```ts
  app.setGlobalPrefix('/api');
 ```
 
 ### Global pipes
-En el archivo src/main.ts, en la funcion bootstrap, despues del app, este va si o si, no es necesario consultarlo
+En el archivo src/main.ts, en la función bootstrap, después del app, este va si o si, no es necesario consultarlo
 ```ts
 import { ValidationPipe } from '@nestjs/common';
   
@@ -118,3 +118,4 @@ El --no-spec es para que no se creen archivos de .test, consulta siempre si no p
  nest generate s <name> --no-spec
  
 ```
+Con esto podemos pasar a el punto [[2 - BD]]

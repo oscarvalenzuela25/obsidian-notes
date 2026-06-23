@@ -1,4 +1,4 @@
-Esto es de ejemplo, salta esto si estas en fase de creación de un proyecto.
+Esta seccion es de ejemplo, tenlo como contexto para desarrollos futuros, puedes ir a la seccion [[4 - Documentacion]]
 ```ts
 @IsString()
 @MinLength(6)
@@ -9,7 +9,7 @@ message:
 })
 password!: string;
 ```
-
+Lo de arriba es igual al siguiente decorador
 ```ts
  @IsStrongPassword({
         minLength: 6,

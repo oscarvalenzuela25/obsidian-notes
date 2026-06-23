@@ -1,30 +1,30 @@
 Consulta si se va a agregar una configuración para una Base de datos.
-Si no van a generar la configuracion ahora, omitamos este documento y vamos a la parte 3.
-Si no, consultar por cual orm va a ocupar, se tienen los siguientes
+Si no van a generar la configuración ahora, omitamos este documento y vamos a [[3 - Class Validator]].
+Consulta si va a utilizar algun ORM, si la respuesta es no, pasamoa a [[3 - Class Validator]], si la respuesta es si, tenemos las siguientes opciones.
 - TypeOrm
 Consultar por cual Base de datos van a ocupar, se tienen los siguientes:
 - Postgresql
 ### TypeOrm
-Si van a ocupar TypeOrm seguir con esta instalacion.
+Si van a ocupar TypeOrm seguir con esta instalación.
 ```bash
 npm install @nestjs/typeorm typeorm
 ```
-### Postgresql
-Si van a ocupar Postgresql vamos con la instalacion
+### PostgreSQL
+Si van a ocupar PostgreSQL vamos con la instalación
 ```bash
 npm install pg
 ```
 ### Configuración de TypeOrm
-Si instalaste typeOrm sigue estas instalaciones, sino omitelo
+Si instalaste typeOrm sigue estas instalaciones, sino omítelo
 Primero ve al .env y crea los siguientes variables de entorno
 ```ts
 DB_HOST=localhost
 DB_PORT=5432
-POSTGRES_DB=teslo_db
-POSTGRES_USER=teslo_user
-POSTGRES_PASSWORD=teslo_password
+POSTGRES_DB=my_db
+POSTGRES_USER=my_user
+POSTGRES_PASSWORD=my_password
 ```
-Ahora agrega esos .env al configModuleEnvs que esta en el archivo src/config/envs.config.ts siguiendo el mismo patron que ya existe.
+Ahora agrega esos .env al configModuleEnvs que esta en el archivo src/config/envs.config.ts siguiendo el mismo patrón que ya existe.
 Ahora vas a ir a src/app.module.ts y en el arreglo de imports agrega esta configuración
 ```ts
 import { TypeOrmModule } from '@nestjs/typeorm';
@@ -49,3 +49,4 @@ import { Module } from '@nestjs/common';
 export class AppModule {}
 
 ```
+Ahora puedes ir a la sección [[3 - Class Validator]]

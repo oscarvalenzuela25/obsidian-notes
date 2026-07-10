@@ -11,7 +11,7 @@ Crea una carpeta llamada .local
 ```bash
 mkdir .local
 ```
-En ella crea el archivo pyapi_tunnel_config.json y pon lo siguiente
+En ella crea el archivo pyapi_tunnel_config.json y pon lo siguiente, las credenciales debes de tenerlas en un drive
 ```json
 {
 

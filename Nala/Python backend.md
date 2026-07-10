@@ -17,21 +17,21 @@ En ella crea el archivo pyapi_tunnel_config.json y pon lo siguiente
 
 "staging": {
 
-"PG_UN": "backofficer",
+"PG_UN": "", //postgres username
 
-"PG_DB_NAME": "postgres",
+"PG_DB_NAME": "postgres", 
 
-"PG_DB_PW": "nalaqG4bzDoe_",
+"PG_DB_PW": "", // postgres db password
 
 "SSH_PKEY": "/Users/oscar/.ssh/id_ed25519",
 
-"SSH_USERNAME": "ubuntu",
+"SSH_USERNAME": "", // ssh username
 
-"SSH_HOST": "back.nala.rocks",
+"SSH_HOST": "", // ssh host
 
-"SSH_PORT": 24,
+"SSH_PORT": 0, // ssh port
 
-"DB_HOST": "staging-nala-encrypted.chbcyhrn7a08.us-east-2.rds.amazonaws.com",
+"DB_HOST": "", // DB Host
 
 "DB_PORT": 5432,
 

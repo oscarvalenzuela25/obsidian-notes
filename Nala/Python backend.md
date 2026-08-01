@@ -23,7 +23,7 @@ En ella crea el archivo pyapi_tunnel_config.json y pon lo siguiente, las credenc
 
 "PG_DB_PW": "", // postgres db password
 
-"SSH_PKEY": "/Users/oscar/.ssh/id_ed25519",
+"SSH_PKEY": "/Users/oscar/.ssh/id_ed25519", // path del archivo de ssh privado
 
 "SSH_USERNAME": "", // ssh username
 

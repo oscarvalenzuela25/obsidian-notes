@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "utils/Turborepo.md",
+                "file": "utils/Mui Theme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Turborepo"
+              "title": "Mui Theme"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -198,8 +200,10 @@
   },
   "active": "e02a49e5c7dcaf12",
   "lastOpenFiles": [
-    "utils/Prompt para estudiar.jpg",
+    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
+    "utils/Mui Theme.md",
     "utils/Turborepo.md",
+    "utils/Prompt para estudiar.jpg",
     "Fundamentos de Backend.md",
     "Prompt Ingles.md",
     "Markdown Basico.md",
@@ -216,7 +220,6 @@
     "Arquitectura de software/Backend/Monolito modular.md",
     "Arquitectura de software/Backend/MVC.md",
     "Arquitectura de software/Backend/Arquitectura en capas.md",
-    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
     "Arquitectura de software/Backend",
     "Arquitectura de software/Frontend/Comparación entre arquitecturas.md",
     "Arquitectura de software/Frontend/Microfrontends.md",

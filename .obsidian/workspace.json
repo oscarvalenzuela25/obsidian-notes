@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "utils/Mui Theme.md",
+                "file": "utils/Turborepo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mui Theme"
+              "title": "Turborepo"
             }
           }
         ]
@@ -200,13 +200,14 @@
   },
   "active": "e02a49e5c7dcaf12",
   "lastOpenFiles": [
-    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
-    "utils/Mui Theme.md",
-    "utils/Turborepo.md",
-    "utils/Prompt para estudiar.jpg",
-    "Fundamentos de Backend.md",
+    "Guia para creacion de proyectos/Guide.md",
     "Prompt Ingles.md",
     "Markdown Basico.md",
+    "Fundamentos de Backend.md",
+    "utils/MUI Theme.md",
+    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
+    "utils/Turborepo.md",
+    "utils/Prompt para estudiar.jpg",
     "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
     "Arquitectura de software/Backend/Serverless.md",
     "Arquitectura de software/Backend/Microservicios.md",
@@ -227,7 +228,6 @@
     "Arquitectura de software/Frontend/MVC y MVVM.md",
     "Arquitectura de software/Frontend/Arquitectura hexagonal.md",
     "Arquitectura de software/Frontend/Clean Architecture.md",
-    "Arquitectura de software/Frontend/Feature-Sliced Design.md",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
     "Nala",

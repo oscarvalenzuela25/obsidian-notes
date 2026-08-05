@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "utils/Turborepo.md",
+                "file": "utils/Monorepo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Turborepo"
+              "title": "Monorepo"
             }
           }
         ]
@@ -198,7 +198,7 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "e02a49e5c7dcaf12",
+  "active": "f9e5994f89296cdd",
   "lastOpenFiles": [
     "Guia para creacion de proyectos/Guide.md",
     "Prompt Ingles.md",
@@ -206,7 +206,7 @@
     "Fundamentos de Backend.md",
     "utils/MUI Theme.md",
     "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
-    "utils/Turborepo.md",
+    "utils/Monorepo.md",
     "utils/Prompt para estudiar.jpg",
     "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
     "Arquitectura de software/Backend/Serverless.md",

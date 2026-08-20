@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "db7beba5765a5e3a",
+        "id": "a5462d51be9f8619",
         "type": "tabs",
         "children": [
           {
-            "id": "1d92b6e5bafa51e3",
+            "id": "179a293b854ca0b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de software/Frontend/Comparación entre arquitecturas.md",
+                "file": "Guia para creacion de proyectos/Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comparación entre arquitecturas"
+              "title": "Guide"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 385.5
   },
   "right": {
     "id": "5ebf1dca870cd496",
@@ -196,45 +196,45 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "1d92b6e5bafa51e3",
+  "active": "179a293b854ca0b1",
   "lastOpenFiles": [
-    "Arquitectura de software/Frontend/Microfrontends.md",
-    "Arquitectura de software/Frontend/Comparación entre arquitecturas.md",
-    "Arquitectura de software/Frontend/Atomic Design.md",
-    "Arquitectura de software/Frontend/MVC y MVVM.md",
-    "Arquitectura de software/Frontend/Arquitectura hexagonal.md",
-    "Arquitectura de software/Frontend/Clean Architecture.md",
-    "Arquitectura de software/Frontend/Feature-Sliced Design.md",
+    "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",
+    "Guia para creacion de proyectos/prompts/Prompt Panel Kanban.md",
+    "Guia para creacion de proyectos/prompts/Prompt Modelo de dominio ERD.md",
+    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack Frontend.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack DevOps.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack Backend.md",
+    "Guia para creacion de proyectos/prompts/Prompt Sitemap.md",
+    "Guia para creacion de proyectos/prompts/Prompt Route Specs.md",
+    "Guia para creacion de proyectos/prompts/Prompt PRD V2.md",
+    "Nala/Python backend.md",
     "Arquitectura de software/Frontend/Vertical Slice Architecture.md",
-    "Arquitectura de software/Frontend/Arquitectura modular.md",
-    "Arquitectura de software/Frontend/Arquitectura por capas.md",
+    "Arquitectura de software/Frontend/Microfrontends.md",
+    "Arquitectura de software/Frontend/Feature-Sliced Design.md",
+    "Arquitectura de software/Frontend/Comparación entre arquitecturas.md",
+    "Arquitectura de software/Frontend/Clean Architecture.md",
+    "Arquitectura de software/Frontend/Atomic Design.md",
     "Arquitectura de software/Frontend/Arquitectura por tipo de archivo.md",
+    "Arquitectura de software/Frontend/Arquitectura por capas.md",
+    "Arquitectura de software/Frontend/Arquitectura modular.md",
+    "Arquitectura de software/Frontend/Arquitectura hexagonal.md",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
-    "Fundamentos de Backend.md",
-    "Learning path.md",
-    "Nala/Python backend.md",
+    "Nestjs/6 - Websockets.md",
     "Nala",
-    "nestjs/1 - Instalaciones.md",
-    "nestjs/2 - BD.md",
-    "nestjs/3 - Class Validator.md",
-    "nestjs/4 - Documentacion.md",
-    "nestjs/5 - Auth.md",
-    "nestjs/6 - Websockets.md",
-    "Prompt Ingles.md",
+    "Nestjs/5 - Auth.md",
+    "Nestjs/4 - Documentacion.md",
+    "Nestjs/3 - Class Validator.md",
+    "Nestjs/2 - BD.md",
+    "Nestjs/nest-cheatsheet.pdf",
     "Utils/Prompt para estudiar.jpg",
+    "ToDo",
+    "Pasted image 20260621145315.png",
     "Utils",
-    "Contenedores utiles de dockers/Crear BD postgreSQL.md",
     "Contenedores utiles de dockers",
-    "torpedos/mejores promps.jpg",
-    "Learning Path.md",
-    "torpedos",
-    "nestjs/Documentacion.md",
-    "Guia para creacion de proyectos/Guide.md",
-    "nestjs/Class Validator.md",
-    "dockers",
-    "proyectos/SkillMatch",
-    "proyectos",
-    "Creacion de proyecto 1/prompts"
+    "Guia para creacion de proyectos/prompts",
+    "Guia para creacion de proyectos",
+    "Nestjs"
   ]
 }

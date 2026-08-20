@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Guide"
             }
+          },
+          {
+            "id": "8dfaa2c9e6acee29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sin título.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sin título"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,8 +211,27 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "179a293b854ca0b1",
+  "active": "8dfaa2c9e6acee29",
   "lastOpenFiles": [
+    "Utils/Strapi.md",
+    "Utils/Mui Theme.md",
+    "Utils/Monorepo.md",
+    "Arquitectura de software/Backend/Vertical Slice Architecture.md",
+    "Arquitectura de software/Backend/Serverless.md",
+    "Arquitectura de software/Backend/Onion Architecture.md",
+    "Arquitectura de software/Backend/Monolito modular.md",
+    "Arquitectura de software/Backend/Microservicios.md",
+    "Arquitectura de software/Backend/MVC.md",
+    "Arquitectura de software/Backend/Event-Driven Architecture.md",
+    "Arquitectura de software/Backend/Domain-Driven Design.md",
+    "Arquitectura de software/Backend/Clean Architecture.md",
+    "Arquitectura de software/Backend/CQRS.md",
+    "Arquitectura de software/Backend/Arquitectura en capas.md",
+    "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
+    "Arquitectura de software/Backend/Arquitectura Hexagonal.md",
+    "Arquitectura de software/Backend",
+    "Sin título.md",
+    "Guia para creacion de proyectos/Guide.md",
     "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",
     "Guia para creacion de proyectos/prompts/Prompt Panel Kanban.md",
     "Guia para creacion de proyectos/prompts/Prompt Modelo de dominio ERD.md",
@@ -206,27 +240,9 @@
     "Guia para creacion de proyectos/prompts/Prompt Stack DevOps.md",
     "Guia para creacion de proyectos/prompts/Prompt Stack Backend.md",
     "Guia para creacion de proyectos/prompts/Prompt Sitemap.md",
-    "Guia para creacion de proyectos/prompts/Prompt Route Specs.md",
-    "Guia para creacion de proyectos/prompts/Prompt PRD V2.md",
-    "Nala/Python backend.md",
-    "Arquitectura de software/Frontend/Vertical Slice Architecture.md",
-    "Arquitectura de software/Frontend/Microfrontends.md",
-    "Arquitectura de software/Frontend/Feature-Sliced Design.md",
-    "Arquitectura de software/Frontend/Comparación entre arquitecturas.md",
-    "Arquitectura de software/Frontend/Clean Architecture.md",
-    "Arquitectura de software/Frontend/Atomic Design.md",
-    "Arquitectura de software/Frontend/Arquitectura por tipo de archivo.md",
-    "Arquitectura de software/Frontend/Arquitectura por capas.md",
-    "Arquitectura de software/Frontend/Arquitectura modular.md",
-    "Arquitectura de software/Frontend/Arquitectura hexagonal.md",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
-    "Nestjs/6 - Websockets.md",
     "Nala",
-    "Nestjs/5 - Auth.md",
-    "Nestjs/4 - Documentacion.md",
-    "Nestjs/3 - Class Validator.md",
-    "Nestjs/2 - BD.md",
     "Nestjs/nest-cheatsheet.pdf",
     "Utils/Prompt para estudiar.jpg",
     "ToDo",
@@ -234,7 +250,6 @@
     "Utils",
     "Contenedores utiles de dockers",
     "Guia para creacion de proyectos/prompts",
-    "Guia para creacion de proyectos",
-    "Nestjs"
+    "Guia para creacion de proyectos"
   ]
 }

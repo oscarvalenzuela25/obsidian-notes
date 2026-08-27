@@ -1,37 +1,66 @@
-```YAML
+# Docker Compose — PostgreSQL
+
+Plantilla reutilizable y optimizada para levantar una base de datos PostgreSQL con Docker Compose.
+
+## 📄 docker-compose.yml
+
+```yaml
 services:
-  db:
-    image: postgres:14.3
-    container_name: teslo_db
-    restart: always
-
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres_db
+    restart: unless-stopped
     ports:
-      - '5432:5432'
-
+      - '${POSTGRES_PORT:-5432}:5432'
     environment:
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
-
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-my_database}
     volumes:
-      - ./postgres:/var/lib/postgresql/data
-
+      - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}']
-      interval: 10s
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-my_database}']
+      interval: 5s
       timeout: 5s
       retries: 5
       start_period: 10s
-
     networks:
-      - teslo_network
+      - app_network
+
+volumes:
+  postgres_data:
+    name: postgres_data
 
 networks:
-  teslo_network:
+  app_network:
+    name: app_network
     driver: bridge
 ```
 
-.env
-POSTGRES_DB=teslo_db
-POSTGRES_USER=teslo_user
-POSTGRES_PASSWORD=teslo_password
+## ⚙️ Variables de entorno (.env)
+
+```env
+POSTGRES_DB=my_database
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_PORT=5432
+```
+
+## 🚀 Comandos útiles
+
+```bash
+# Iniciar contenedor en segundo plano
+docker compose up -d
+
+# Ver logs en tiempo real
+docker compose logs -f postgres
+
+# Detener el contenedor sin borrar datos
+docker compose down
+
+# Detener y borrar volúmenes de datos (reset completo de BD)
+docker compose down -v
+
+# Acceder a la terminal de PostgreSQL (psql)
+docker compose exec -it postgres psql -U postgres -d my_database
+```

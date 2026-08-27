@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a5462d51be9f8619",
+        "id": "5a2c62932cc7727d",
         "type": "tabs",
         "children": [
           {
-            "id": "179a293b854ca0b1",
+            "id": "e02a49e5c7dcaf12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guia para creacion de proyectos/Guide.md",
+                "file": "Contenedores utiles de dockers/Crear BD postgreSQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guide"
-            }
-          },
-          {
-            "id": "8dfaa2c9e6acee29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cosas utiles instaladas en cada PC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cosas utiles instaladas en cada PC"
+              "title": "Crear BD postgreSQL"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 311.5
   },
   "right": {
     "id": "5ebf1dca870cd496",
@@ -213,45 +198,45 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "8dfaa2c9e6acee29",
+  "active": "f9e5994f89296cdd",
   "lastOpenFiles": [
-    "Markdown Basico.md",
-    "Prompt Ingles.md",
-    "Cosas utiles instaladas en cada PC.md",
-    "Utils/Monorepo.md",
-    "Utils/Mui Theme.md",
-    "Utils/Strapi.md",
-    "Arquitectura de software/Backend/Vertical Slice Architecture.md",
-    "Arquitectura de software/Backend/Serverless.md",
-    "Arquitectura de software/Backend/Onion Architecture.md",
-    "Arquitectura de software/Backend/Monolito modular.md",
-    "Arquitectura de software/Backend/Microservicios.md",
-    "Arquitectura de software/Backend/MVC.md",
-    "Arquitectura de software/Backend/Event-Driven Architecture.md",
-    "Arquitectura de software/Backend/Domain-Driven Design.md",
-    "Arquitectura de software/Backend/Clean Architecture.md",
-    "Arquitectura de software/Backend/CQRS.md",
-    "Arquitectura de software/Backend/Arquitectura en capas.md",
-    "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
-    "Arquitectura de software/Backend/Arquitectura Hexagonal.md",
-    "Arquitectura de software/Backend",
-    "Guia para creacion de proyectos/Guide.md",
-    "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",
-    "Guia para creacion de proyectos/prompts/Prompt Panel Kanban.md",
-    "Guia para creacion de proyectos/prompts/Prompt Modelo de dominio ERD.md",
     "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
-    "Guia para creacion de proyectos/prompts/Prompt Stack Frontend.md",
-    "Guia para creacion de proyectos/prompts/Prompt Stack DevOps.md",
+    "utils/Strapi.md",
+    "Cosas utiles instaladas en cada PC.md",
+    "utils/Prompt para estudiar.jpg",
+    "Prompt Ingles.md",
+    "Markdown Basico.md",
+    "utils/Monorepo.md",
+    "Guia para creacion de proyectos/Guide.md",
+    "Fundamentos de Backend.md",
+    "utils/MUI Theme.md",
+    "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
+    "Arquitectura de software/Backend/Serverless.md",
+    "Arquitectura de software/Backend/Microservicios.md",
+    "Arquitectura de software/Backend/Event-Driven Architecture.md",
+    "Arquitectura de software/Backend/CQRS.md",
+    "Arquitectura de software/Backend/Domain-Driven Design.md",
+    "Arquitectura de software/Backend/Onion Architecture.md",
+    "Arquitectura de software/Backend/Arquitectura Hexagonal.md",
+    "Arquitectura de software/Backend/Clean Architecture.md",
+    "Arquitectura de software/Backend/Vertical Slice Architecture.md",
+    "Arquitectura de software/Backend/Monolito modular.md",
+    "Arquitectura de software/Backend/MVC.md",
+    "Arquitectura de software/Backend/Arquitectura en capas.md",
+    "Arquitectura de software/Backend",
+    "Arquitectura de software/Frontend/Comparación entre arquitecturas.md",
+    "Arquitectura de software/Frontend/Microfrontends.md",
+    "Arquitectura de software/Frontend/Atomic Design.md",
+    "Arquitectura de software/Frontend/MVC y MVVM.md",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
     "Nala",
-    "Nestjs/nest-cheatsheet.pdf",
-    "Utils/Prompt para estudiar.jpg",
-    "ToDo",
-    "Pasted image 20260621145315.png",
-    "Utils",
+    "utils",
     "Contenedores utiles de dockers",
-    "Guia para creacion de proyectos/prompts",
-    "Guia para creacion de proyectos"
+    "torpedos/mejores promps.jpg",
+    "torpedos",
+    "dockers",
+    "proyectos/SkillMatch",
+    "proyectos"
   ]
 }

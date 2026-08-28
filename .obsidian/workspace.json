@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comando globales.md",
+                "file": "Cosas utiles instaladas en cada PC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comando globales"
+              "title": "Cosas utiles instaladas en cada PC"
             }
           }
         ],
@@ -215,8 +215,8 @@
   },
   "active": "8dfaa2c9e6acee29",
   "lastOpenFiles": [
-    "Cosas utiles instaladas en cada PC.md",
     "Comando globales.md",
+    "Cosas utiles instaladas en cada PC.md",
     "Markdown Basico.md",
     "Prompt Ingles.md",
     "Utils/Monorepo.md",

@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "5a2c62932cc7727d",
+        "id": "a5462d51be9f8619",
         "type": "tabs",
         "children": [
           {
-            "id": "e02a49e5c7dcaf12",
+            "id": "179a293b854ca0b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cosas utiles instaladas en cada PC.md",
+                "file": "Guia para creacion de proyectos/Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cosas utiles instaladas en cada PC"
+              "title": "Guide"
+            }
+          },
+          {
+            "id": "8dfaa2c9e6acee29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comando globales.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Comando globales"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 385.5
   },
   "right": {
     "id": "5ebf1dca870cd496",
@@ -198,45 +213,45 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "e02a49e5c7dcaf12",
+  "active": "8dfaa2c9e6acee29",
   "lastOpenFiles": [
-    "Prompt Ingles.md",
-    "Markdown Basico.md",
-    "Fundamentos de Backend.md",
     "Cosas utiles instaladas en cada PC.md",
-    "Contenedores utiles de dockers/Crear BD postgreSQL.md",
-    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
-    "utils/Strapi.md",
-    "utils/Prompt para estudiar.jpg",
-    "utils/Monorepo.md",
-    "Guia para creacion de proyectos/Guide.md",
-    "utils/MUI Theme.md",
-    "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
-    "Arquitectura de software/Backend/Serverless.md",
-    "Arquitectura de software/Backend/Microservicios.md",
-    "Arquitectura de software/Backend/Event-Driven Architecture.md",
-    "Arquitectura de software/Backend/CQRS.md",
-    "Arquitectura de software/Backend/Domain-Driven Design.md",
-    "Arquitectura de software/Backend/Onion Architecture.md",
-    "Arquitectura de software/Backend/Arquitectura Hexagonal.md",
-    "Arquitectura de software/Backend/Clean Architecture.md",
+    "Comando globales.md",
+    "Markdown Basico.md",
+    "Prompt Ingles.md",
+    "Utils/Monorepo.md",
+    "Utils/Mui Theme.md",
+    "Utils/Strapi.md",
     "Arquitectura de software/Backend/Vertical Slice Architecture.md",
+    "Arquitectura de software/Backend/Serverless.md",
+    "Arquitectura de software/Backend/Onion Architecture.md",
     "Arquitectura de software/Backend/Monolito modular.md",
+    "Arquitectura de software/Backend/Microservicios.md",
     "Arquitectura de software/Backend/MVC.md",
+    "Arquitectura de software/Backend/Event-Driven Architecture.md",
+    "Arquitectura de software/Backend/Domain-Driven Design.md",
+    "Arquitectura de software/Backend/Clean Architecture.md",
+    "Arquitectura de software/Backend/CQRS.md",
     "Arquitectura de software/Backend/Arquitectura en capas.md",
+    "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
+    "Arquitectura de software/Backend/Arquitectura Hexagonal.md",
     "Arquitectura de software/Backend",
-    "Arquitectura de software/Frontend/Comparación entre arquitecturas.md",
-    "Arquitectura de software/Frontend/Microfrontends.md",
-    "Arquitectura de software/Frontend/Atomic Design.md",
+    "Guia para creacion de proyectos/Guide.md",
+    "Guia para creacion de proyectos/prompts/Prompt PRD V1.md",
+    "Guia para creacion de proyectos/prompts/Prompt Panel Kanban.md",
+    "Guia para creacion de proyectos/prompts/Prompt Modelo de dominio ERD.md",
+    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
+    "Guia para creacion de proyectos/prompts/Prompt Stack Frontend.md",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
     "Nala",
-    "utils",
+    "Nestjs/nest-cheatsheet.pdf",
+    "Utils/Prompt para estudiar.jpg",
+    "ToDo",
+    "Pasted image 20260621145315.png",
+    "Utils",
     "Contenedores utiles de dockers",
-    "torpedos/mejores promps.jpg",
-    "torpedos",
-    "dockers",
-    "proyectos/SkillMatch",
-    "proyectos"
+    "Guia para creacion de proyectos/prompts",
+    "Guia para creacion de proyectos"
   ]
 }

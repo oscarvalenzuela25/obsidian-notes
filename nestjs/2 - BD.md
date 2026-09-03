@@ -13,6 +13,7 @@ npm install @nestjs/typeorm typeorm
 Si van a ocupar PostgreSQL vamos con la instalación
 ```bash
 npm install pg
+npm i -D @types/pg
 ```
 ### Configuración de TypeOrm
 Si instalaste typeOrm sigue estas instalaciones, sino omítelo
@@ -33,7 +34,7 @@ import { Module } from '@nestjs/common';
 @Module({ 
 	imports: [
 		TypeOrmModule.forRoot({
-			type: 'postgres',
+			type: 'postgres' as const,
 			host: envs.DB_HOST,
 			port: envs.DB_PORT,
 			database: envs.POSTGRES_DB,
@@ -41,7 +42,6 @@ import { Module } from '@nestjs/common';
 			password: envs.POSTGRES_PASSWORD,
 			autoLoadEntities: true,
 			synchronize: true,
-			entities: [],
 		}),
 	], 
 }) 

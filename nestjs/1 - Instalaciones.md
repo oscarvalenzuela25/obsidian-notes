@@ -21,32 +21,16 @@ Librería para validar DTOs
 ### .envs
 Librería para utilizar .envs
 ```bash
-  npm i @nestjs/config
+  npm i dotenv
 ```
 Después de instalar esta libreria, procede a crear un .env en la raiz del proyecto con el valor base PORT=3000 y busca en el proyecto si existe src/config/envs.config.ts, sino créalo y pon esta configuración base
 ``` ts
+import 'dotenv/config';
+
 export const configModuleEnvs = () => ({
 	PORT: process.env.PORT ? parseInt(process.env.PORT) : 3000,
 });
 export const envs = configModuleEnvs();
-```
-### Variables de entorno
-src/app.module.ts agregar esta configuración para usar los .env de otra forma
-``` ts
-import { Module } from '@nestjs/common'; 
-import { ConfigModule } from '@nestjs/config'; 
-
-@Module({ 
-	imports: [ConfigModule.forRoot()], 
-}) 
-
-export class AppModule {}
-```
-Uso de variables .env en el archivo que se utilizara, esto es de ejemplo.
-```ts
-constructor( 
-	private readonly configService:ConfigService 
-){}
 ```
 ## Configuraciones Iniciales
 Ahora vamos a ir al archivo src/main.ts y empezaremos con la configuración base

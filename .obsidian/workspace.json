@@ -198,8 +198,14 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "e02a49e5c7dcaf12",
+  "active": "f9e5994f89296cdd",
   "lastOpenFiles": [
+    "Ingles/04 - Prompts Maestros de Fases.md",
+    "Ingles/03 - Diario de Vocabulario y Apuntes.md",
+    "Ingles/02 - Recursos y Metodologia.md",
+    "Ingles/01 - Tracker de Progreso.md",
+    "Ingles/00 - Index Orquestador.md",
+    "Ingles",
     "nestjs/5 - Auth.md",
     "nestjs/4 - Documentacion.md",
     "nestjs/3 - Class Validator.md",
@@ -222,11 +228,6 @@
     "Arquitectura de software/Backend/Serverless.md",
     "Arquitectura de software/Backend/Microservicios.md",
     "Arquitectura de software/Backend/Event-Driven Architecture.md",
-    "Arquitectura de software/Backend/CQRS.md",
-    "Arquitectura de software/Backend/Domain-Driven Design.md",
-    "Arquitectura de software/Backend/Onion Architecture.md",
-    "Arquitectura de software/Backend/Arquitectura Hexagonal.md",
-    "Arquitectura de software/Backend/Clean Architecture.md",
     "Arquitectura de software/Backend",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
@@ -236,7 +237,6 @@
     "torpedos/mejores promps.jpg",
     "torpedos",
     "dockers",
-    "proyectos/SkillMatch",
-    "proyectos"
+    "proyectos/SkillMatch"
   ]
 }

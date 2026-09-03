@@ -40,10 +40,10 @@ networks:
 ## ⚙️ Variables de entorno (.env)
 
 ```env
-POSTGRES_DB=my_database
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
+POSTGRES_DB=my_db
 POSTGRES_PORT=5432
+POSTGRES_USER=my_user
+POSTGRES_PASSWORD=my_password
 ```
 
 ## 🚀 Comandos útiles

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0892b5f8d7bf8e5",
+        "id": "5a2c62932cc7727d",
         "type": "tabs",
         "children": [
           {
-            "id": "8dcad538fdc24c11",
+            "id": "e02a49e5c7dcaf12",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Nodia DBML.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Nodia DBML"
             }
           }
         ]
@@ -76,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 311.5
   },
   "right": {
     "id": "5ebf1dca870cd496",
@@ -194,45 +198,45 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "8dcad538fdc24c11",
+  "active": "e02a49e5c7dcaf12",
   "lastOpenFiles": [
-    "Guia para creacion de proyectos/Guide.md",
-    "Nestjs/1 - Instalaciones.md",
-    "Sin título.md",
+    "nestjs/nest-cheatsheet.pdf",
+    "nestjs/4 - Documentacion.md",
+    "nestjs/1 - Instalaciones.md",
+    "Nodia DBML.md",
     "Ingles/04 - Prompts Maestros de Fases.md",
     "Ingles/03 - Diario de Vocabulario y Apuntes.md",
     "Ingles/02 - Recursos y Metodologia.md",
     "Ingles/01 - Tracker de Progreso.md",
     "Ingles/00 - Index Orquestador.md",
     "Ingles",
-    "Comando globales.md",
-    "Prompt Ingles Gemini.md",
+    "nestjs/5 - Auth.md",
+    "nestjs/3 - Class Validator.md",
+    "nestjs/2 - BD.md",
+    "Contenedores utiles de dockers/Crear BD postgreSQL.md",
     "Cosas utiles instaladas en cada PC.md",
-    "Markdown Basico.md",
+    "Prompt Ingles Gemini.md",
+    "Comando globales.md",
     "Prompt Ingles.md",
-    "Utils/Monorepo.md",
-    "Utils/Mui Theme.md",
-    "Utils/Strapi.md",
-    "Arquitectura de software/Backend/Vertical Slice Architecture.md",
+    "Markdown Basico.md",
+    "Fundamentos de Backend.md",
+    "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
+    "utils/Strapi.md",
+    "utils/Prompt para estudiar.jpg",
+    "utils/Monorepo.md",
+    "Guia para creacion de proyectos/Guide.md",
+    "utils/MUI Theme.md",
+    "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
     "Arquitectura de software/Backend/Serverless.md",
-    "Arquitectura de software/Backend/Onion Architecture.md",
-    "Arquitectura de software/Backend/Monolito modular.md",
-    "Arquitectura de software/Backend/Microservicios.md",
-    "Arquitectura de software/Backend/MVC.md",
-    "Arquitectura de software/Backend/Event-Driven Architecture.md",
-    "Arquitectura de software/Backend/Domain-Driven Design.md",
-    "Arquitectura de software/Backend/Clean Architecture.md",
-    "Arquitectura de software/Backend/CQRS.md",
     "Arquitectura de software/Backend",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
     "Nala",
-    "Nestjs/nest-cheatsheet.pdf",
-    "Utils/Prompt para estudiar.jpg",
-    "ToDo",
-    "Pasted image 20260621145315.png",
-    "Utils",
+    "utils",
     "Contenedores utiles de dockers",
-    "Guia para creacion de proyectos/prompts"
+    "torpedos/mejores promps.jpg",
+    "torpedos",
+    "dockers",
+    "proyectos/SkillMatch"
   ]
 }

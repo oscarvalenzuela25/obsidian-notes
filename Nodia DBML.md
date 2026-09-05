@@ -1,11 +1,13 @@
 ```
-Table user_roles [headercolor: #175e7a] {
+Table users [headercolor: #175e7a] {
 
-    id integer [ pk, increment, not null ]
+    id bigint [ pk, increment, not null ]
 
-    user_id uuid [ not null ]
+    name varchar(255)
 
-    role_id uuid [ not null ]
+    email text [ not null, unique ]
+
+    image_url text
 
     is_active boolean [ not null, default: true ]
 
@@ -13,13 +15,61 @@ Table user_roles [headercolor: #175e7a] {
 
     updated_at timestamp [ not null ]
 
+}
+
   
 
-    indexes {
+Table roles [headercolor: #175e7a] {
 
-        (user_id, role_id) [ name: 'uq_user_role', unique ]
+    id bigint [ pk, increment, not null ]
 
-    }
+    key text [ not null, unique ]
+
+    is_active boolean [ not null, default: true ]
+
+    created_at timestamp [ not null ]
+
+    updated_at timestamp [ not null ]
+
+}
+
+  
+
+Table actions [headercolor: #175e7a] {
+
+    id bigint [ pk, increment, not null ]
+
+    module_id bigint
+
+    key text [ not null, unique ]
+
+    description text
+
+    is_active boolean [ not null, default: true ]
+
+    created_at timestamp [ not null ]
+
+    updated_at timestamp [ not null ]
+
+}
+
+  
+
+Table modules [headercolor: #175e7a] {
+
+    id bigint [ pk, increment, not null ]
+
+    key text [ not null, unique ]
+
+    type text [ not null ]
+
+    parent_id bigint
+
+    is_active boolean [ not null, default: true ]
+
+    created_at timestamp [ not null ]
+
+    updated_at timestamp [ not null ]
 
 }
 
@@ -29,9 +79,9 @@ Table role_actions [headercolor: #175e7a] {
 
     id integer [ pk, increment, not null ]
 
-    role_id uuid [ not null ]
+    role_id bigint [ not null ]
 
-    action_id uuid [ not null ]
+    action_id bigint [ not null ]
 
     is_active boolean [ not null, default: true ]
 
@@ -51,77 +101,27 @@ Table role_actions [headercolor: #175e7a] {
 
   
 
-Table modules [headercolor: #175e7a] {
+Table user_roles [headercolor: #175e7a] {
 
-    id uuid [ pk, not null ]
+    id integer [ pk, increment, not null ]
 
-    key text [ not null, unique ]
+    user_id bigint [ not null ]
 
-    type text [ not null ]
-
-    parent_id uuid
+    role_id bigint [ not null ]
 
     is_active boolean [ not null, default: true ]
 
     created_at timestamp [ not null ]
 
     updated_at timestamp [ not null ]
-
-}
 
   
 
-Table actions [headercolor: #175e7a] {
+    indexes {
 
-    id uuid [ pk, not null ]
+        (user_id, role_id) [ name: 'uq_user_role', unique ]
 
-    module_id uuid
-
-    key text [ not null, unique ]
-
-    description text
-
-    is_active boolean [ not null, default: true ]
-
-    created_at timestamp [ not null ]
-
-    updated_at timestamp [ not null ]
-
-}
-
-  
-
-Table roles [headercolor: #175e7a] {
-
-    id uuid [ pk, not null ]
-
-    key text [ not null, unique ]
-
-    is_active boolean [ not null, default: true ]
-
-    created_at timestamp [ not null ]
-
-    updated_at timestamp [ not null ]
-
-}
-
-  
-
-Table users [headercolor: #175e7a] {
-
-    id uuid [ pk, not null ]
-
-    name varchar(255)
-
-    email text [ not null, unique ]
-
-    image_url text
-
-    is_active boolean [ not null, default: true ]
-
-    created_at timestamp [ not null ]
-
-    updated_at timestamp [ not null ]
+    }
 
 }
 

@@ -77,7 +77,7 @@ Table modules [headercolor: #175e7a] {
 
 Table role_actions [headercolor: #175e7a] {
 
-    id integer [ pk, increment, not null ]
+    id bigint [ pk, increment, not null ]
 
     role_id bigint [ not null ]
 
@@ -103,7 +103,7 @@ Table role_actions [headercolor: #175e7a] {
 
 Table user_roles [headercolor: #175e7a] {
 
-    id integer [ pk, increment, not null ]
+    id bigint [ pk, increment, not null ]
 
     user_id bigint [ not null ]
 
@@ -123,6 +123,20 @@ Table user_roles [headercolor: #175e7a] {
 
     }
 
+}
+
+Table translations [headercolor: #175e7a] {
+	id bigint [ pk, increment, not null ]
+	key varchar(255) [ not null ]
+	locale varchar(10) [ not null ]
+	value text [ not null ]
+	created_at timestamp [ not null ]
+	updated_at timestamp [ not null ]
+
+	indexes {
+		(key, locale) [ name: 'uq_translation_key_locale', unique ]
+		(locale, key) [ name: 'idx_translation_locale_key' ]
+	}
 }
 
   

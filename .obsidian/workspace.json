@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5a2c62932cc7727d",
+        "id": "c56857f55c27a887",
         "type": "tabs",
         "children": [
           {
-            "id": "e02a49e5c7dcaf12",
+            "id": "5714860a77f972eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -198,28 +198,29 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "e02a49e5c7dcaf12",
+  "active": "5714860a77f972eb",
   "lastOpenFiles": [
     "nestjs/nest-cheatsheet.pdf",
-    "nestjs/4 - Documentacion.md",
-    "nestjs/1 - Instalaciones.md",
+    "Markdown Basico.md",
     "Nodia DBML.md",
+    "Comando globales.md",
+    "Fundamentos de Backend.md",
+    "Prompt Ingles.md",
+    "Prompt Ingles Gemini.md",
+    "nestjs/1 - Instalaciones.md",
+    "nestjs/3 - Class Validator.md",
+    "nestjs/2 - BD.md",
+    "nestjs/4 - Documentacion.md",
+    "nestjs/5 - Auth.md",
+    "nestjs/6 - Websockets.md",
     "Ingles/04 - Prompts Maestros de Fases.md",
     "Ingles/03 - Diario de Vocabulario y Apuntes.md",
     "Ingles/02 - Recursos y Metodologia.md",
     "Ingles/01 - Tracker de Progreso.md",
     "Ingles/00 - Index Orquestador.md",
     "Ingles",
-    "nestjs/5 - Auth.md",
-    "nestjs/3 - Class Validator.md",
-    "nestjs/2 - BD.md",
     "Contenedores utiles de dockers/Crear BD postgreSQL.md",
     "Cosas utiles instaladas en cada PC.md",
-    "Prompt Ingles Gemini.md",
-    "Comando globales.md",
-    "Prompt Ingles.md",
-    "Markdown Basico.md",
-    "Fundamentos de Backend.md",
     "Guia para creacion de proyectos/prompts/Prompt Design Constraints.md",
     "utils/Strapi.md",
     "utils/Prompt para estudiar.jpg",
@@ -227,7 +228,6 @@
     "Guia para creacion de proyectos/Guide.md",
     "utils/MUI Theme.md",
     "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
-    "Arquitectura de software/Backend/Serverless.md",
     "Arquitectura de software/Backend",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
@@ -236,7 +236,6 @@
     "Contenedores utiles de dockers",
     "torpedos/mejores promps.jpg",
     "torpedos",
-    "dockers",
-    "proyectos/SkillMatch"
+    "dockers"
   ]
 }

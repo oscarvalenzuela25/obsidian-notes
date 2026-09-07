@@ -66,7 +66,45 @@ app.useGlobalPipes(
 	}),
 );
 ```
- 
+
+### Entities
+```ts
+import {
+  Column,
+  Entity,
+  PrimaryGeneratedColumn,
+  CreateDateColumn,
+  UpdateDateColumn,
+} from 'typeorm';
+  
+
+@Entity({
+  name: 'users',
+})
+export class User {
+  @PrimaryGeneratedColumn({ type: 'bigint' })
+  // @PrimaryGeneratedColumn('uuid')
+  id!: string; //  El driver de PostgreSQL en Node.js siempre devuelve los valores BIGINT como string.
+
+  @Column({ type: 'varchar', nullable: true })
+  name: string | null;
+
+  @Column({ type: 'text', unique: true })
+  email: string;
+
+  @Column({ type: 'text', nullable: true })
+  image_url?: string | null;
+
+  @Column({ type: 'boolean', default: true })
+  is_active: boolean;
+
+  @CreateDateColumn({ type: 'timestamp' })
+  created_at: Date;
+
+  @UpdateDateColumn({ type: 'timestamp' })
+  updated_at: Date;
+}
+```
 ### Generar componentes de NestJs
 Esto es a modo de ejemplo.
 El --no-spec es para que no se creen archivos de .test, consulta siempre si no ponen el --no-spec si es que quieren o no archivos de test para incluir o no este comando.

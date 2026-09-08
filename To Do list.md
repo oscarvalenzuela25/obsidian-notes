@@ -1,5 +1,4 @@
-- Actualizar lo de translate con el modelo nuevo
-- Cambiar el diseño de la BD para que modulo ahora tenga una tabla pivote con user y los modulos van a ir directos con el usuario
+
 # Blueprint: Endpoint `/api/v1/authorization/context` (NestJS)
 
 ## 1. Lo importante a tener en cuenta (Reglas de diseño)

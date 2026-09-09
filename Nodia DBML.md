@@ -39,16 +39,25 @@ Table actions [headercolor: #175e7a] {
 	updated_at timestamp [ not null ]
 }
 
+Table module_groups [headercolor: #175e7a] {
+	id bigint [ pk, increment, not null ]
+	key varchar(255) [ not null, unique ]
+	is_active boolean [ not null, default: true ]
+	created_at timestamp [ not null ]
+	updated_at timestamp [ not null ]
+}
+
 Table modules [headercolor: #175e7a] {
 	id bigint [ pk, increment, not null ]
 	key varchar(255) [ not null, unique ]
-	group_key varchar(255) [ not null ]
+	module_group_id bigint [ not null ]
+	link varchar(255) [ not null ]
 	is_active boolean [ not null, default: true ]
 	created_at timestamp [ not null ]
 	updated_at timestamp [ not null ]
 
 	indexes {
-		group_key [ name: 'idx_modules_group_key' ]
+		module_group_id [ name: 'idx_modules_module_group_id' ]
 	}
 }
 
@@ -117,5 +126,9 @@ Ref fk_user_modules_user {
 
 Ref fk_user_modules_module {
 	user_modules.module_id > modules.id [ delete: no action, update: no action ]
+}
+
+Ref fk_modules_module_group {
+	modules.module_group_id > module_groups.id [ delete: no action, update: no action ]
 }
 ```

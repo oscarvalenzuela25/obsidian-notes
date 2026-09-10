@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Do list.md",
+                "file": "Comando globales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do list"
+              "title": "Comando globales"
             }
           }
         ]
@@ -198,10 +198,13 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "5714860a77f972eb",
+  "active": "f9e5994f89296cdd",
   "lastOpenFiles": [
     "Nodia DBML.md",
+    "Diagramas DB/nodia.json.crswap",
+    "Diagramas DB/nodia.json",
     "To Do list.md",
+    "Diagramas DB",
     "nestjs/nest-cheatsheet.pdf",
     "Markdown Basico.md",
     "Comando globales.md",
@@ -228,15 +231,11 @@
     "utils/Monorepo.md",
     "Guia para creacion de proyectos/Guide.md",
     "utils/MUI Theme.md",
-    "Arquitectura de software/Backend/Arquitectura Monolitica modular clean.md",
     "Arquitectura de software/Backend",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
     "Nala",
     "utils",
-    "Contenedores utiles de dockers",
-    "torpedos/mejores promps.jpg",
-    "torpedos",
-    "dockers"
+    "torpedos/mejores promps.jpg"
   ]
 }

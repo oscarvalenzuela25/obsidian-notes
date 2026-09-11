@@ -1,0 +1,44 @@
+{
+  "name": "pellito",
+  "database": "generic",
+  "lastModified": "2026-09-11T00:44:23.383Z",
+  "tables": [
+    {
+      "id": "hSLbJPr77gNfDdmipjOqF",
+      "name": "pellitofeo",
+      "x": -232.12890625,
+      "y": -238.35546874999994,
+      "locked": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "unsigned": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "lbddSk74JPsGtJ90zViC4"
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "uniqueConstraints": [],
+      "color": "#4f46e5",
+      "collapsed": false
+    }
+  ],
+  "references": [],
+  "notes": [],
+  "areas": [],
+  "views": [],
+  "pan": {
+    "x": 0,
+    "y": 0
+  },
+  "zoom": 1,
+  "types": []
+}

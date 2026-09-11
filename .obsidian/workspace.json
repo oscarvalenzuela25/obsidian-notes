@@ -11,14 +11,12 @@
             "id": "5714860a77f972eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "json-viewer",
               "state": {
-                "file": "Comando globales.md",
-                "mode": "source",
-                "source": false
+                "file": "Diagramas DB/pellito.json"
               },
-              "icon": "lucide-file",
-              "title": "Comando globales"
+              "icon": "braces",
+              "title": "pellito"
             }
           }
         ]
@@ -198,16 +196,17 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "f9e5994f89296cdd",
+  "active": "5714860a77f972eb",
   "lastOpenFiles": [
-    "Nodia DBML.md",
-    "Diagramas DB/nodia.json.crswap",
     "Diagramas DB/nodia.json",
+    "Diagramas DB/pellito.json",
     "To Do list.md",
+    "Diagramas DB/nodia.json.crswap",
+    "Comando globales.md",
+    "Nodia DBML.md",
     "Diagramas DB",
     "nestjs/nest-cheatsheet.pdf",
     "Markdown Basico.md",
-    "Comando globales.md",
     "Fundamentos de Backend.md",
     "Prompt Ingles.md",
     "Prompt Ingles Gemini.md",

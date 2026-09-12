@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f167c1ddef7e9f48",
+            "id": "5714860a77f972eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -198,24 +198,22 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "f167c1ddef7e9f48",
+  "active": "5714860a77f972eb",
   "lastOpenFiles": [
-    "Nodia DBML.md",
-    "To Do list.md",
     "Diagramas DB/nodia.json",
     "Diagramas DB/nodia.json.crswap",
     "Diagramas DB/Sistema de users, roles, actions y modules.json.crswap",
-    "Diagramas DB/Sistema de users, roles, actions y modules.json.1.crswap",
     "Diagramas DB/Sistema de users, roles, actions y modules.json",
-    "Sin título.md",
-    "Prompt Ingles Gemini.md",
     "Diagramas DB/pellito.json",
+    "To Do list.md",
+    "Comando globales.md",
+    "Nodia DBML.md",
     "Diagramas DB",
     "nestjs/nest-cheatsheet.pdf",
     "Markdown Basico.md",
-    "Comando globales.md",
     "Fundamentos de Backend.md",
     "Prompt Ingles.md",
+    "Prompt Ingles Gemini.md",
     "nestjs/1 - Instalaciones.md",
     "nestjs/3 - Class Validator.md",
     "nestjs/2 - BD.md",
@@ -235,7 +233,10 @@
     "utils/Prompt para estudiar.jpg",
     "utils/Monorepo.md",
     "Guia para creacion de proyectos/Guide.md",
+    "utils/MUI Theme.md",
     "Arquitectura de software/Backend",
+    "Arquitectura de software/Frontend",
+    "Arquitectura de software",
     "torpedos/mejores promps.jpg"
   ]
 }

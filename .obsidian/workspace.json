@@ -13,10 +13,10 @@
             "state": {
               "type": "json-viewer",
               "state": {
-                "file": "Diagramas DB/pellito.json"
+                "file": "Diagramas DB/nodia.json"
               },
               "icon": "braces",
-              "title": "pellito"
+              "title": "nodia"
             }
           }
         ]
@@ -198,10 +198,12 @@
   },
   "active": "5714860a77f972eb",
   "lastOpenFiles": [
-    "Diagramas DB/nodia.json",
-    "Diagramas DB/pellito.json",
-    "To Do list.md",
     "Diagramas DB/nodia.json.crswap",
+    "Diagramas DB/Sistema de users, roles, actions y modules.json.crswap",
+    "Diagramas DB/Sistema de users, roles, actions y modules.json",
+    "Diagramas DB/pellito.json",
+    "Diagramas DB/nodia.json",
+    "To Do list.md",
     "Comando globales.md",
     "Nodia DBML.md",
     "Diagramas DB",
@@ -233,8 +235,6 @@
     "Arquitectura de software/Backend",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
-    "Nala",
-    "utils",
     "torpedos/mejores promps.jpg"
   ]
 }

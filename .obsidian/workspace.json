@@ -211,14 +211,16 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "f167c1ddef7e9f48",
+  "active": "f9e5994f89296cdd",
   "lastOpenFiles": [
+    "Diagramas DB/nodia.json.crswap",
+    "Diagramas DB/Sistema de users, roles, actions y modules.json.crswap",
+    "Diagramas DB/Sistema de users, roles, actions y modules.json.1.crswap",
     "Diagramas DB/Sistema de users, roles, actions y modules.json",
     "Diagramas DB/nodia.json",
     "To Do list.md",
     "Sin título.md",
     "Prompt Ingles Gemini.md",
-    "Diagramas DB/nodia.json.crswap",
     "Diagramas DB/pellito.json",
     "Diagramas DB",
     "Nodia DBML.md",
@@ -248,7 +250,6 @@
     "Guia para creacion de proyectos/Guide.md",
     "Arquitectura de software/Backend",
     "Arquitectura de software/Frontend",
-    "Arquitectura de software",
     "torpedos/mejores promps.jpg"
   ]
 }

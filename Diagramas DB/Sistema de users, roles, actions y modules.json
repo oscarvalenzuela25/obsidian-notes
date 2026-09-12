@@ -1,7 +1,7 @@
 {
   "name": "Sistema de users, roles, actions y modules",
   "database": "postgresql",
-  "lastModified": "2026-09-12T01:30:47.057Z",
+  "lastModified": "2026-09-12T05:09:30.137Z",
   "tables": [
     {
       "id": "J72B3_JFC2J-673FBtcWR",
@@ -1008,10 +1008,10 @@
   "areas": [],
   "views": [],
   "pan": {
-    "x": 525.1303766167301,
-    "y": 318.0067492907743
+    "x": 512.7323868216274,
+    "y": 453.86332362660795
   },
-  "zoom": 0.49105446414667614,
+  "zoom": 0.51560718735401,
   "enums": [],
   "types": []
 }

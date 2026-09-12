@@ -11,12 +11,14 @@
             "id": "5714860a77f972eb",
             "type": "leaf",
             "state": {
-              "type": "json-viewer",
+              "type": "markdown",
               "state": {
-                "file": "Diagramas DB/pellito.json"
+                "file": "To Do list.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "braces",
-              "title": "pellito"
+              "icon": "lucide-file",
+              "title": "To Do list"
             }
           }
         ]
@@ -198,15 +200,15 @@
   },
   "active": "5714860a77f972eb",
   "lastOpenFiles": [
-    "Diagramas DB/nodia.json",
-    "Diagramas DB/pellito.json",
-    "To Do list.md",
     "Diagramas DB/nodia.json.crswap",
-    "Comando globales.md",
-    "Nodia DBML.md",
+    "Diagramas DB/pellito.json",
+    "Diagramas DB/nodia.json",
     "Diagramas DB",
+    "Nodia DBML.md",
+    "To Do list.md",
     "nestjs/nest-cheatsheet.pdf",
     "Markdown Basico.md",
+    "Comando globales.md",
     "Fundamentos de Backend.md",
     "Prompt Ingles.md",
     "Prompt Ingles Gemini.md",

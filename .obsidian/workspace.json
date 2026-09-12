@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5714860a77f972eb",
+            "id": "f167c1ddef7e9f48",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "To Do list"
             }
-          },
-          {
-            "id": "f167c1ddef7e9f48",
-            "type": "leaf",
-            "state": {
-              "type": "json-viewer",
-              "state": {
-                "file": "Diagramas DB/nodia.json"
-              },
-              "icon": "braces",
-              "title": "nodia"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,19 +198,19 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "f9e5994f89296cdd",
+  "active": "f167c1ddef7e9f48",
   "lastOpenFiles": [
+    "Nodia DBML.md",
+    "To Do list.md",
+    "Diagramas DB/nodia.json",
     "Diagramas DB/nodia.json.crswap",
     "Diagramas DB/Sistema de users, roles, actions y modules.json.crswap",
     "Diagramas DB/Sistema de users, roles, actions y modules.json.1.crswap",
     "Diagramas DB/Sistema de users, roles, actions y modules.json",
-    "Diagramas DB/nodia.json",
-    "To Do list.md",
     "Sin título.md",
     "Prompt Ingles Gemini.md",
     "Diagramas DB/pellito.json",
     "Diagramas DB",
-    "Nodia DBML.md",
     "nestjs/nest-cheatsheet.pdf",
     "Markdown Basico.md",
     "Comando globales.md",
@@ -249,7 +236,6 @@
     "utils/Monorepo.md",
     "Guia para creacion de proyectos/Guide.md",
     "Arquitectura de software/Backend",
-    "Arquitectura de software/Frontend",
     "torpedos/mejores promps.jpg"
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "name": "nodia",
+  "name": "Sistema de users, roles, actions y modules",
   "database": "postgresql",
-  "lastModified": "2026-09-12T03:37:00.740Z",
+  "lastModified": "2026-09-12T01:30:47.057Z",
   "tables": [
     {
       "id": "J72B3_JFC2J-673FBtcWR",
@@ -1008,8 +1008,8 @@
   "areas": [],
   "views": [],
   "pan": {
-    "x": 414.6776973110813,
-    "y": 592.0048156083703
+    "x": 525.1303766167301,
+    "y": 318.0067492907743
   },
   "zoom": 0.49105446414667614,
   "enums": [],

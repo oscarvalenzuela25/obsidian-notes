@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "To Do list"
             }
+          },
+          {
+            "id": "f167c1ddef7e9f48",
+            "type": "leaf",
+            "state": {
+              "type": "json-viewer",
+              "state": {
+                "file": "Diagramas DB/nodia.json"
+              },
+              "icon": "braces",
+              "title": "nodia"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,20 +211,22 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "5714860a77f972eb",
+  "active": "f167c1ddef7e9f48",
   "lastOpenFiles": [
+    "Diagramas DB/Sistema de users, roles, actions y modules.json",
+    "Diagramas DB/nodia.json",
+    "To Do list.md",
+    "Sin título.md",
+    "Prompt Ingles Gemini.md",
     "Diagramas DB/nodia.json.crswap",
     "Diagramas DB/pellito.json",
-    "Diagramas DB/nodia.json",
     "Diagramas DB",
     "Nodia DBML.md",
-    "To Do list.md",
     "nestjs/nest-cheatsheet.pdf",
     "Markdown Basico.md",
     "Comando globales.md",
     "Fundamentos de Backend.md",
     "Prompt Ingles.md",
-    "Prompt Ingles Gemini.md",
     "nestjs/1 - Instalaciones.md",
     "nestjs/3 - Class Validator.md",
     "nestjs/2 - BD.md",
@@ -231,12 +246,9 @@
     "utils/Prompt para estudiar.jpg",
     "utils/Monorepo.md",
     "Guia para creacion de proyectos/Guide.md",
-    "utils/MUI Theme.md",
     "Arquitectura de software/Backend",
     "Arquitectura de software/Frontend",
     "Arquitectura de software",
-    "Nala",
-    "utils",
     "torpedos/mejores promps.jpg"
   ]
 }
